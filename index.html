@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fərid Dostumaliyev – Front-end developer</title>
+<meta name="description" content="Front-end developer from Shamakhi, Azerbaijan, preparing to study Software Engineering abroad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f2f4f8; --ink:#111827; --muted:#4b5565; --line:#d5dbe6;
+  --accent:#2b4fff; --panel:#e6eaf3;
+  --display:'Bricolage Grotesque','Segoe UI',Arial,sans-serif;
+  --body:'Instrument Sans','Segoe UI',Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1420; --ink:#eef1f7; --muted:#a3adc0; --line:#27304a; --accent:#7f9bff; --panel:#171e30;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 var(--body)}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+main{max-width:860px;margin:0 auto;padding:0 1.5rem 4rem}
+header{padding:5rem 0 3.5rem;border-bottom:1px solid var(--line)}
+h1{font:800 clamp(2.6rem,9vw,5.6rem)/0.98 var(--display);letter-spacing:-.03em;margin:0 0 1.5rem}
+.lead{font-size:1.25rem;max-width:34rem;margin:0 0 1.75rem}
+.links{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.6rem 1.1rem;border:1.5px solid var(--ink);border-radius:6px;color:var(--ink);text-decoration:none;font-weight:500}
+.btn:hover{background:var(--ink);color:var(--bg)}
+section{padding:3rem 0;border-bottom:1px solid var(--line)}
+h2{font:600 1.6rem/1.2 var(--display);margin:0 0 1.25rem}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.box{background:var(--panel);padding:1.25rem;border-radius:10px}
+.box h3{font:600 1.05rem var(--display);margin:0 0 .4rem}
+.box p{margin:0;color:var(--muted);font-size:.98rem}
+ul.tags{list-style:none;margin:.5rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+ul.tags li{border:1px solid var(--line);padding:.15rem .7rem;border-radius:99px;font-size:.9rem}
+footer{padding-top:2rem;color:var(--muted);font-size:.95rem}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Fərid Dostumaliyev</h1>
+    <p class="lead">I build websites with HTML, CSS and JavaScript. Now I'm learning Python and algorithms to study Software Engineering abroad.</p>
+    <div class="links">
+      <a class="btn" href="https://github.com/Zulahard321">GitHub</a>
+      <a class="btn" href="mailto:feriddostum2010@gmail.com">Email me</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="box">
+        <h3>Using now</h3>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+      </div>
+      <div class="box">
+        <h3>Learning</h3>
+        <ul class="tags"><li>Python</li><li>Algorithms</li><li>Data structures</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <!-- EDIT: replace each card with a real project. Keep the link to its GitHub repo. -->
+      <article class="box">
+        <h3>Project name</h3>
+        <p>One sentence: what it does and what you used to build it.</p>
+        <p><a href="https://github.com/Zulahard321/REPO-NAME">Source code</a></p>
+      </article>
+      <article class="box">
+        <h3>Project name</h3>
+        <p>One sentence: what it does and what you used to build it.</p>
+        <p><a href="https://github.com/Zulahard321/REPO-NAME">Source code</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>About</h2>
+    <p>I'm in 11th grade in Shamakhi, Azerbaijan, and have studied front-end development for two years. I want to study Software Engineering in Europe, and I'm preparing for the IELTS exam alongside school.</p>
+  </section>
+
+  <footer>© 2026 Fərid Dostumaliyev</footer>
+</main>
+</body>
+</html>
